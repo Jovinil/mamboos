@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/menu.css">
+    <script defer src="/scripts/checkout.js"></script>
+</head>
+<body>
+    <header>
+        <div class="account-display">
+            <p>Account</p>
+        </div>
+        <div class="nav-container">
+            <div class="logo">
+                <img src="images/logo.png" class="logo-image" alt="">
+            </div>
+            <div class="navbar">
+                <label class="hamburger-menu">
+                    <input type="checkbox">
+                </label>
+                <aside class="sidebar">
+                    <nav>
+                        <ul>
+                            <li><a href="index.html" class="nav-anchor-tag">Home</a></li>
+                            <li><a href="about.html" class="nav-anchor-tag">About</a></li>
+                            <li><a href="contact.html" class="nav-anchor-tag">Contact</a></li>
+                            <li><a href="#" class="nav-anchor-tag">Menu</a></li>
+                        </ul> 
+                    </nav>
+                </aside>
+                <button class="order-btn"><a href="#" class="order-tag">Order</a></button>
+            </div>
+        </div>
+    </header>    
+    <hr>
+    <main>
+        <aside>
+            <div>--Category--</div>
+            <div class="categ1">Head</div>
+            <div class="categ2">Body</div>
+            <div class="categ3">Foot</div>
+        </aside>
+        <section>
+            <section class="main-item-selection-section">
+                <span class="inner-item-selection-span itemSelectionSpanJs"></span>
+            </section>
+            <section class="main-item-preview-section-parent">
+                <section>
+                    <!-- Item Preview Section - Responsible for output -->
+                    <span class="inner-item-preview-parent">
+                        <span class="inner-item-preview-child">
+                            <span>
+                                <h2>-Legend- <br>Item x Quantity = Price: <br>X = Remove Item</h2>
+                            </span>
+                            <span class="innerItemOutputjs item-output">
+
+                            </span>
+                        </span>
+                        <!-- <span>
+
+                        </span> -->
+                    </span>
+
+                    <span class="pricing-span">
+                        <span class="pricejs">
+                            
+                        </span>
+                    </span>
+                </section>
+
+                <section class="order-btn-section">
+                    <button>Place Order</button>
+                </section>
+            </section>
+        </section>
+    </main>
+</body>
+</html>

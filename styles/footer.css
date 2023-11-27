@@ -1,0 +1,111 @@
+:root{
+    --account-display-color: #44355B;
+    --header-color: #31263E;
+    --main-theme: #221E22;
+    --button-hover: #EE5622;
+    --button-color: #ECA72C;
+}
+footer {
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-theme);
+}
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.footer-btn-span {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+footer > section > h3 {
+    color: white;
+    text-align: center;
+}
+.send-us-a-message-btn {
+    padding: 5px 8px;
+    background-color: var(--main-theme);
+    color: white;
+    border: 1.5px solid white;
+    box-shadow: 1px 1px 1px white;
+}
+
+.footer-btn-span > *{
+    cursor: pointer;
+}
+    
+
+/* *{
+padding: 0%;
+margin: 0;
+}
+footer{
+    background-color: var(--header-color);
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid var(--main-theme);
+}
+footer h2, p{
+    color: white;
+}
+.footer-upper-portion{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 22.5vh;
+}
+.about-footer{
+    border: 1px solid aqua;
+    width: 25vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.about-footer hr{
+    border-top: 2.5px solid white;
+    width: 4rem;
+}
+.contacts-footer{
+    border: 1px solid aqua; 
+    width: 25vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.contacts-footer hr{
+        border-top: 2.5px solid white;
+        width: 7.2rem;
+}
+.help-footer{
+    border: 1px solid aqua;
+    width: 25vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.help-footer hr{
+    border-top: 2.5px solid white;
+    width: 9rem;
+}
+.footer-horizontal-line{
+    border-top: 1px solid white;
+    width: 90%;
+    align-self: center;
+}
+.footer-buttons{
+    border: 1px solid aqua;
+    width: 25vw;
+    display: flex;
+    justify-content: center
+}
+.send-us-a-message{
+    background-color: var(--header-color);
+    border: 1px solid white;
+} */
