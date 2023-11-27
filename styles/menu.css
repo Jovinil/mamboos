@@ -77,6 +77,7 @@ main > section{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    /* padding: 1rem 1.25rem; */
     gap: 1rem 1rem;
     width: 95%;
 }
@@ -84,6 +85,7 @@ main > section{
 .main-item-selection-section > span:has(div){
     padding: 1rem 1.25rem;
 }
+
 
 .inner-item-selection-span > * {
     display: flex;
